@@ -1,0 +1,57 @@
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-img-top {
+    height: 200px; 
+    object-fit: scale-down;
+}
+
+
+.container {
+    margin-top: 56px; 
+}
+
+
+#contact-section {
+    position: relative;
+    background: url('https://img.freepik.com/foto-gratis/montanas-vestrahorn-al-atardecer-stokksnes-islandia_335224-574.jpg?w=826&t=st=1718226020~exp=1718226620~hmac=0d4c6d5d75607c99a8078bd569a02c094671037ec5bb3ab7a7cb1be57d17a321') no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    color: white; 
+    margin-top: -56px; 
+    height: calc(55vh + 0px); 
+    z-index: -1;
+}
+
+
+#contact-section .contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#contact-section .contact-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}

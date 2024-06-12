@@ -1,0 +1,90 @@
+{% extends "/base.html" %}
+
+{% block title %} Index {% endblock %}
+
+{% block body %}
+<h1 class="title text-center">Bienvenido</h1>
+<div class="container py-3 mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://static.gigabyte.com/StaticFile/Image/Global/1ec377d6a9a75b133b557ceaa50e80d1/Product/23484/Png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gigabyte RTX 2060 Super</h5>
+                    <p class="card-text">Placa de video Nvidia Gigabyte Windforce GeForce RTX 20 Series RTX 2060 Super</p>
+                    <hr>
+                    <p><strong>$ 500.000</strong><br>
+                    en 6 cuotas de $ 83.333,33</p>
+                    <a href="{{ url_for('rtx2060') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://asset.msi.com/resize/image/global/product/product_9_20191024090506_5db0f8c2ee3a7.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MSI GTX 1660 Super</h5>
+                    <p class="card-text">Placa de video Nvidia MSI Ventus XS GeForce GTX 16 Series GTX 1660 SUPER GEFORCE GTX 1660 SUPER VENTUS XS OC OC Edition 6GB</p>
+                    <hr>
+                    <p><strong>$ 418.999</strong><br>
+                    en 6 cuotas de $ 69.833,16</p>
+                    <a href="{{ url_for('gtx1660') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://logg.api.cygnus.market/static/logg/Global/Placa%20de%20Video%20MSI%20NVIDIA%20GeForce%20RTX%203060%20Ti%20VENTUS%202X%20OCV1%208GB%20GDDR6%20PCIe%204.0%20LHR/19b387fcfbe148d0a020e6375cadc002.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MSI RTX 3060</h5>
+                    <p class="card-text">Placa de video Nvidia MSI Ventus GeForce RTX 30 Series RTX 3060 GEFORCE RTX 3060 VENTUS 2X 12G OC OC Edition 12GB</p>
+                    <hr>
+                    <p><strong>$ 490.555</strong><br>
+                    en 6 cuotas de $ 81.759,16</p>
+                    <a href="{{ url_for('rtx3060') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://statics.qloud.ar/gaming-point-06-2021/221_30-11-2023-02-11-57-19-113-666-v01.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ryzen 5 5600x</h5>
+                    <p class="card-text">Procesador gamer AMD Ryzen 5 5600X 100-100000065BOX de 6 núcleos y 4.6GHz de frecuencia</p>
+                    <hr>
+                    <p><strong>$ 250.929</strong><br>
+                    en 6 cuotas de $ 41.821,5</p>
+                    <a href="{{ url_for('ryzen5') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.soscomputacion.com.ar/22239-thickbox_default/micro-intel-core-i5-10400f-procesador-gamer-de-6-nucleos-43ghz-sin-video-s1200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">i5 10400f</h5>
+                    <p class="card-text">Procesador gamer Intel Core i5-10400F BX8070110400F de 6 núcleos y 4.3GHz de frecuencia                    </p>
+                    <hr>
+                    <p><strong>$ 210.999</strong><br>
+                    en 6 cuotas de $ 35.166,5</p>
+                    <a href="{{ url_for('i510400') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://fullh4rd.com.ar/img/productos/1/micro-intel-core-i3-12100f-svideo-s1700-0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">i3 12100f</h5>
+                    <p class="card-text">Procesador gamer Intel Core i3-12100F BX8071512100F de 4 núcleos y 4.3GHz de frecuencia</p>
+                    <hr>
+                    <p><strong>$ 110.899</strong><br>
+                    en 6 cuotas de $ 18.483,16</p>
+                    <a href="{{ url_for('i3') }}" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "/base.html"%}
+
+{% block title %} Contacto {% endblock %}
+
+{% block body %}
+<div class="container-fluid p-0" id="contact-section">
+    <div class="contact-overlay"></div>
+    <div class="text-center contact-content">
+        <h1 class="section-title">Contáctanos</h1>
+        <p class="section-subtitle">Estamos aquí para ayudarte. Envíanos tus preguntas o comentarios.</p>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3 class="text-center">Enviame un mensaje</h3>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" onclick="alert('Enviado con exito')" class="btn btn-light col-md-12 border">Enviar</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
